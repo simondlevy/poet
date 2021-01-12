@@ -17,7 +17,7 @@ import datetime
 from collections import deque
 import json
 import neat
-from neat.six_util import iteritems, iterkeys
+#from neat.six_util import iteritems, iterkeys
 import numpy as np
 import pickle
 import random

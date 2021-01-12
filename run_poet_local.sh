@@ -10,7 +10,7 @@ experiment=poet_$1
 mkdir -p ~/ipp/$experiment
 mkdir -p ~/logs/$experiment
 
-python -u master.py \
+python3 -u master.py \
   ~/logs/$experiment \
   --init=random \
   --learning_rate=0.01 \
